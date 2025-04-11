@@ -1,0 +1,72 @@
+export const sidebarLinks = [
+    {
+      id: 1,
+      name: "My Profile",
+      path: "/dashboard/my-profile",
+      icon: "CgProfile",
+    },
+    {
+      id: 2,
+      name: "Apply Leave",
+      path: "/dashboard/student/new-application",
+      type: "student",
+      icon: "IoIosAddCircleOutline",
+    },
+    {
+      id: 3,
+      name: "All Leaves",
+      path: "/dashboard/student/all-leave-list",
+      type: "student",
+      icon: "FaRegFileAlt",
+    },
+    {
+      id: 4,
+      name: "Dashboard",
+      path: "/dashboard/admin/main-page",
+      type: "admin",
+      icon: "RiDashboard2Line",
+    },
+    {
+      id: 7,
+      name: "New Applications",
+      path: "/dashboard/admin/all-new-applications",
+      type: "admin",
+      icon: "IoIosAddCircleOutline",
+    },
+    {
+      id: 8,
+      name: "All Applications",
+      path: "/dashboard/admin/all-applications",
+      type: "admin",
+      icon: "MdOutlineManageAccounts",
+    },
+    {
+      id: 9,
+      name: "All Students",
+      path: "/dashboard/admin/all-users-list",
+      type: "admin",
+      icon: "MdOutlineManageAccounts",
+    },
+    {
+      id: 10,
+      name: "Add Student",
+      path: "/dashboard/admin/add-user",
+      type: "admin",
+      icon: "IoIosAddCircleOutline",
+    },
+    // {
+    //   id: 10,
+    //   name: "Manage sub-Heads",
+    //   path: "/dashboard/admin/manage-subheads",
+    //   type: "admin",
+    //   icon: "MdOutlineManageAccounts",
+    // },
+    // {
+    //   id: 11,
+    //   name: "Manage Funds",
+    //   path: "/dashboard/admin/manage-funds",
+    //   type: "admin",
+    //   icon: "MdOutlineManageAccounts",
+    // },
+  ];
+  
