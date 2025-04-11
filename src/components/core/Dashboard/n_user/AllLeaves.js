@@ -26,7 +26,7 @@ const AllLeaves = () => {
     <div>
         <div className='text-3xl font-bold text-gray-500 mb-12'>All Leaves</div>
 
-        {allLeaves.length===0 && <div className='text-2xl font-bold flex justify-center'><p>No Projects Found</p></div>}
+        {allLeaves.length===0 && <div className='text-2xl font-bold flex justify-center'><p>No Leaves Found</p></div>}
         {allLeaves.length>0 && <AllLeavesList allLeaves={allLeaves}></AllLeavesList>}
     </div>
   )
