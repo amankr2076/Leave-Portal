@@ -85,6 +85,8 @@ The frontend provides a user-friendly interface for all stakeholders, ensuring t
 
 ### 🗄️ Database
   The database is structured to maintain the relationships between Admin, Students, applications. 
+
+- **Technology Used**: MySQL
 - **Features**: 
   - Stores user details, leave applications, departments, and leave types
   - Uses foreign key relationships to maintain data integrity
@@ -128,7 +130,7 @@ Ensure the following are installed on your system:
 
 - **Install all dependencies**  
    ```bash  
-   npm install
+    npm install
    ```
 - **To run the server**
   ```bash
@@ -136,7 +138,7 @@ Ensure the following are installed on your system:
   ```
 - **To run the client**
   ```bash
-  npm start
+   npm start
   ```
 4. **Access the Application**
   - Open your browser and navigate to http://localhost:3000 to view the portal.
